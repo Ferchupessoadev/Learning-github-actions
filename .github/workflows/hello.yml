@@ -12,3 +12,5 @@ jobs:
       - name: echo hello
         run: |
           echo "Hello, World!"
+      - name: echo dir
+        run: ls -l
