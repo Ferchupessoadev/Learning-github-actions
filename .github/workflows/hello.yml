@@ -14,3 +14,5 @@ jobs:
           echo "Hello, World!"
       - name: echo dir
         run: ls -l
+      - name: echo pwd
+        run: pwd
