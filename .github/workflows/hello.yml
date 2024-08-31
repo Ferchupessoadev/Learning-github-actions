@@ -20,3 +20,5 @@ jobs:
         run: |
           echo "Hello, World!" > hello.txt
           cat hello.txt
+      - name: view file
+        run: ls -l
