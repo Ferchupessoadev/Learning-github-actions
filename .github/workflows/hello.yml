@@ -16,3 +16,7 @@ jobs:
         run: ls -l
       - name: echo pwd
         run: pwd
+      - name: create file
+        run: |
+          echo "Hello, World!" > hello.txt
+          cat hello.txt
